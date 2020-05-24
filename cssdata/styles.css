@@ -1,0 +1,107 @@
+  body{
+    align-self: center;
+    background-color: powderblue;
+    color: white;
+  }
+
+  .tbd{
+    border-style: dotted none none none;
+    border-color: gray;
+    border-width: 10px;
+    height: 0;
+    width: 10%;
+  }
+
+  .topmain{
+    animation: 10000ms ease-in-out infinite color-change;
+    font-family: monospace;
+    text-align:center;
+  }
+
+  @keyframes color-change{
+    0%{
+      background-color: #ffa41b;
+      color: hotpink;
+    }
+    25%{
+      background-color: #000839;
+      color: #f9f9f9;
+    }
+    50%{
+      background-color: #005082;
+      color: #e43f5a;
+    }
+    75%{
+      background-color: #00bdaa;
+      color: #f9f9f9;
+    }
+    100%{
+      background-color: #00a8cc;
+      color: #ffacb7;
+    }
+  }
+
+  h1:not([data-attr="hdng"]){
+    color: #6a097d;
+    font-family: monospace;
+    text-align:center;
+  }
+
+  a:link{
+    text-decoration: none;
+    color: inherit;
+  }
+
+  a:hover{
+    color: #9A1F40;
+    background-color: #74d4c0;
+    text-decoration: underline;
+  }
+
+  a:visited{
+    color:#039be5;
+    background-color: inherit;
+    text-decoration: oblique;
+  }
+
+  h3{
+    color: #66BFBF;
+    font-family: monospace;
+  }
+
+  #toptablehome{
+    animation: 10000ms ease-in-out infinite color-change-tablehome;
+    font-family: monospace;
+    text-align:center;
+  }
+
+  @keyframes color-change-tablehome{
+    0%{
+      background-color: #ffa41b;
+    }
+    25%{
+      background-color: #000839;
+    }
+    50%{
+      background-color: #005082;
+    }
+    75%{
+      background-color: #00bdaa;
+    }
+    100%{
+      background-color: #00a8cc;
+    }
+  }
+
+  p{
+    color: #EE8572;
+  }
+
+  img{
+    height: inherit;
+  }
+
+  dt{
+    font-style: oblique;
+    font-family: fantasy;
+  }
